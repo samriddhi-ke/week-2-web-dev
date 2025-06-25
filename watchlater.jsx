@@ -1,5 +1,5 @@
-import VideoCard from '../components/VideoCard';
-import { videos } from '../data/dummyVideos';
+import VideoCard from '../videocard';
+import { videos } from '../dummyvideos';
 import { Clock, Heart } from 'lucide-react';
 
 const WatchLater = ({ likedVideos, watchLaterVideos, onLike, onWatchLater }) => {
