@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import VideoCard from '../components/VideoCard';
-import { videos } from '../data/dummyVideos';
+import VideoCard from './videocard';
+import { videos } from './dummyvideos';
 import { Copyright } from 'lucide-react';
 
 const Home = ({ likedVideos, watchLaterVideos, onLike, onWatchLater }) => {
