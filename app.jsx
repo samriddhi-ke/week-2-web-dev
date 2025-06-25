@@ -4,9 +4,9 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import WatchLater from "./pages/WatchLater";
+import Navbar from "./navbar";
+import Home from "./home";
+import WatchLater from "./watchlater";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
