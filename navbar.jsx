@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Search, Clock, Youtube, Menu, X } from 'lucide-react';
-import Timer from './Timer';
+import Timer from './timer';
 
 const Navbar = ({ watchLaterCount }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
